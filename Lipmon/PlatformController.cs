@@ -19,7 +19,7 @@ namespace Lipmon
 
         public void SendControlToRobot(LeapFrame frame)
         {
-            //frame.X
+            //frame.X s
         }
 
         public void SetConnectionWithRobot()
