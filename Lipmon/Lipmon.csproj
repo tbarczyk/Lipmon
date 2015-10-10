@@ -51,6 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmBiggerController.cs" />
+    <Compile Include="ArmSmallerController.cs" />
+    <Compile Include="CoordinatesVisualizer.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="IDeviceController.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,8 +64,10 @@
     </Compile>
     <Compile Include="LeapFrame.cs" />
     <Compile Include="LeapListener.cs" />
+    <Compile Include="PlatformController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RobotController.cs" />
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
